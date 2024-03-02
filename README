@@ -1,1 +1,1 @@
-
+This project uses an Adafruit 2050 TFTLCD display with a resistive touchscreen overlay. It is driven by an HXD8357D chip, which was a common display driver for mobile devices. 
