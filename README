@@ -1,1 +1,7 @@
 This project uses an Adafruit 2050 TFTLCD display with a resistive touchscreen overlay. It is driven by an HXD8357D chip, which was a common display driver for mobile devices. 
+
+This code is for initialization of the display, but it is missing any graphics capabilities. 
+
+To use this code, download it and make sure that the right COM port is typed in the compile script.
+
+Check the wiki for a detailed description of my successes and failures on this project.
