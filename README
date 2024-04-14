@@ -4,4 +4,18 @@ This code is for initialization of the display, but it is missing any graphics c
 
 To use this code, download it and make sure that the right COM port is typed in the compile script.
 
-Check the wiki for a detailed description of my successes and failures on this project.
+This board has two rows of headers for wiring, to use this code it must be wired with the SPI pin headers.
+
+Pin assignments are as follows: 
+
+Vin - 5 volts
+GND - Ground
+3Vo - Jumped to the IM2 pin on the board (Can also solder the jumper on the back of the board closed.)
+CLK - Arduino 13
+MISO - Arduino 12
+MOSI - Arduino 11
+CS - Arduino 10
+C/D - Arduino 9
+
+The C/D pin is VERY important, driving the pin high tells the board to expect a command, while driving it low tells the board to expect data (Such as a pixels).
+
